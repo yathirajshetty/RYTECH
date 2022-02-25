@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Mukta:wght@300&family=Open+Sans&family=Roboto:wght@300;400&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Open+Sans&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Mukta:wght@300&family=Open+Sans&family=Roboto+Condensed&family=Roboto:wght@300;400&family=Rubik:wght@500&display=swap');
+.footer{
+    background-color: #17a3a8;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.social-icon{
+    padding:  12px 14px;
+}
+.footer-img{
+   border-radius: 50%;
+   background-color: white;
+   justify-content: center;
+}
+.head-text{
+    font-family: Hind Madurai;
+}
+.footer-parag{
+font-size: 16px;
+font-family:'Mukta', sans-serif;
+text-align: justify
+}
+.footer-bottom-line{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 2px solid black;
+}
+.footer-copyright{
+    text-align: center;
+}
+.copyright-text{
+    font-family: Roboto Condensed;
+}
+/* .location-icon{
+   
+} */
+@media(max-width:780px){
+    .footer-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media(max-width:480px){
+    .footer-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

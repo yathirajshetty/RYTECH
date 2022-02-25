@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Open+Sans&family=Rubik:wght@500&display=swap');
+.slide-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10%;
+    margin-left: 10%;
+    grid-gap: 10px;
+}
+.slider-img-1{
+    margin-top: -180px;
+}
+.slider-text{
+    font-size: 60px;
+    font-family: Rubik;
+}
+.slider-btn{
+    background-color: #5474ff !important;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px 25px;
+    color:white;
+}
+.slider-btn:hover{
+    background-color: #17a3a8 !important;
+}
+.about-title{
+    background:#17a3a8;
+    color: #fff !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+    display: inline-table;
+    padding: 2px 23px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center !important;
+}
+.about-sub-title{
+    margin: 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: normal;
+    color: #333;
+    line-height: 1.5;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 30px;
+}
+.about-text-grid{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.about-paragh{
+    font-size: 16px;
+    font-family:'Mukta', sans-serif;
+    color: #111;;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: justify;
+}
+.contact-title{
+    background:#17a3a8;
+    color: #fff !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+    display: inline-table;
+    padding: 2px 23px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center !important;
+}
+.contact-sub-title{
+    margin: 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: normal;
+    color: #333;
+    line-height: 1.5;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 30px;
+}
+form {
+    margin: 100px;
+  }
+  .input-field {
+    position: relative;
+    
+    line-height: 44px;
+  }
+  label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #d3d3d3;
+    transition: 0.2s all;
+    cursor: text;
+  }
+  input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #d3d3d3;
+    box-shadow: none;
+    color: #111;
+  }
+  /* input:invalid {
+    outline: 0;
+    color: #ff2300;
+   border-color: #ff2300;
+  } */
+  input:focus,
+  input:valid {
+    border-color:#17a3a8;
+  }
+  input:focus~label,
+  input:valid~label {
+    font-size: 14px;
+    top: -24px;
+    color: #17a3a8;
+  }
+  textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #d3d3d3;
+    box-shadow: none;
+    color: #111;
+  }
+  textarea:focus,
+  textarea:valid {
+    border-color: #17a3a8;
+  }
+  textarea:focus~label,
+  textarea:valid~label {
+    font-size: 14px;
+    top: -24px;
+    color: #17a3a8;
+  }
+/* .about-sub-title::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 5px;
+    background: black;
+    width: 150px;
+    
+} */
+.contact-btn{
+    background-color: #5474ff !important;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px 25px;
+    color:white;
+}
+.contact-btn:hover{
+    background-color: #17a3a8 !important;
+}
+@media(max-width:1200px)
+{
+    .slider-img-1{
+        margin-top: -80px;
+    }
+}
+@media(max-width:780px)
+{
+    .slider-img-1{
+        margin-top: 0;
+    }
+    .slide-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+    }
+}
+@media(max-width: 480px){
+    /* .input-field {
+        position: relative;
+        width: 200px;
+        height: 44px;
+        line-height: 44px;
+      } */
+}
+body{
+    padding: 0;
+    margin:0;
+}
