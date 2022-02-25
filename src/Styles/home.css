@@ -192,6 +192,14 @@ form {
         height: 44px;
         line-height: 44px;
       } */
+      .about-text-grid{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 1%;
+    }
 }
 body{
     padding: 0;
