@@ -191,7 +191,7 @@ const Home =()=>{
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" style={{textAlign:"center"}}>
-        Web Development
+        Web  <br /> Development
         </Typography>
       </CardContent>
     </Card>
