@@ -310,7 +310,7 @@ const Home =()=>{
         <div>
             <Container>
                 
-                    <form onSubmit={onSubmitHandle}>
+                    <form onSubmit={onSubmitHandle} style={{margin:"unset"}}>
                         <h2>{error}</h2>
                          <div class="input-field">
                             <input type="text" id="name" name="name" value={name} onChange={onChangeHandle} required />
@@ -336,7 +336,7 @@ const Home =()=>{
             </Container>
         </div>
     </section>
-    <section>
+    <section style={{marginTop:80}}>
         <Footer />
     </section>
         </>
