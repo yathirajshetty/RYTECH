@@ -177,7 +177,7 @@ const Home =()=>{
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" style={{textAlign:"center"}}>
-        Computer/Laptop Repair
+        Computer/<br />Laptop Repair
         </Typography>
       </CardContent>
     </Card>
