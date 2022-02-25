@@ -2,7 +2,7 @@ import React from 'react';
 import '../Styles/footer.css';
 import {BsFacebook } from "react-icons";
 // import SimpleReactFooter from "simple-react-footer";
-import { FaFacebook, FaInstagram, FaGooglePlus, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaGooglePlus, FaWhatsapp,FaAngleRight } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
 import { GrServices } from "react-icons/gr";
 const Footer =()=>{
@@ -19,10 +19,10 @@ const Footer =()=>{
                 <div  style={{marginTop:20}}>
                    <center> <h3 className="head-text"><span><GrServices />&nbsp;&nbsp;</span>Services</h3>
                     <ul>
-                        <li>About us</li>
-                        <li>Services</li>
-                        <li>Contact us</li>
-                        <li>Sign in</li>
+                        <li className="foot-ser"><span><FaAngleRight /></span>About us</li>
+                        <li className="foot-ser"><span><FaAngleRight /></span>Services</li>
+                        <li className="foot-ser"><span>&nbsp;&nbsp;&nbsp;<FaAngleRight /></span>Contact us</li>
+                        <li className="foot-ser"><span><FaAngleRight /></span>Sign in</li>
                     </ul></center>
                 </div>
                     <div  style={{marginTop:20}}>
