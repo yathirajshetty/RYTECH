@@ -194,7 +194,7 @@ form {
       } */
       .about-text-grid{
         display:grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
         grid-gap: 10px;
         margin-right: 10%;
         margin-left: 10%;
